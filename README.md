@@ -12,46 +12,48 @@
 - **Orchestrazione di flussi di lavoro multi-agente**: Creazione di sistemi complessi che utilizzano più agenti per collaborare e risolvere problemi.
 
 ## Struttura del Progetto
-            
+
+```
 get-AI-coding-to-the-next-level/ 
-
-
-├── src/ # Codice sorgente 
-
-
- └── main.py # Punto di ingresso dell'applicazione 
-
-
-├── tests/ # Directory per i test 
-
-  └── test_main.py # Test per il codice
-
-
-├── requirements.txt # Dipendenze del progetto 
-
-
-└── README.md # Documentazione del progetto
+├── src/
+│   └── AsyncPipelineDebugging/
+	└── LegacyLogicMigration/
+	└── Multi-AgentWorkflowDesign/
+	└── Multi-StepAgentOrchestration/
+	└── TestStrategy&Coverage/
+├── requirements.txt
+└── README.md
+```
 
 ## Istruzioni di Installazione
+
 1. **Clona il repository**:
    ```bash
    git clone https://github.com/tuo_username/get-AI-coding-to-the-next-level.git
    cd get-AI-coding-to-the-next-level
-	```		
-            
-2. **Crea un ambiente virtuale (opzionale ma consigliato)**:				
-	```bash
-	python -m venv venv
-	source venv/bin/activate  # Su Windows usa `venv\Scripts\activate`
-	```		
-            
+   ```
+
+2. **Crea un ambiente virtuale (opzionale ma consigliato)**:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
 3. **Installa le dipendenze**:
-	 ```bash
-	 pip install -r requirements.txt
-	```		
-	            
-## Esecuzione del Progetto
-Per eseguire l'applicazione, utilizza il seguente comando:    	
-   
-    python src/main.py <livello>
-    	
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+
+## Sottoprogetti
+
+Ogni cartella rappresenta un sottoprogetto autonomo con il proprio **README.md** dedicato e, dove necessario, un file **requirements.txt** specifico. Consulta la documentazione all'interno di ciascuna cartella per dettagli su setup, esecuzione e obiettivi.
+
+| Cartella | Argomento |
+|----------|-----------|
+| `AsyncPipelineDebugging` | Debug di pipeline asincrone |
+| `LegacyLogicMigration` | Migrazione di logica legacy |
+| `Multi-AgentWorkflowDesign` | Design di workflow multi-agente |
+| `Multi-StepAgentOrchestration` | Orchestrazione multi-step di agenti |
+| `TestStrategy&Coverage` | Strategia di test e copertura |
