@@ -14,28 +14,44 @@
 ## Struttura del Progetto
             
 get-AI-coding-to-the-next-level/ 
+
+
 ├── src/ # Codice sorgente 
-│ └── main.py # Punto di ingresso dell'applicazione 
+
+
+ └── main.py # Punto di ingresso dell'applicazione 
+
+
 ├── tests/ # Directory per i test 
-│ └── test_main.py # Test per il codice
+
+  └── test_main.py # Test per il codice
+
+
 ├── requirements.txt # Dipendenze del progetto 
+
+
 └── README.md # Documentazione del progetto
 
 ## Istruzioni di Installazione
 1. **Clona il repository**:
+   ```bash
    git clone https://github.com/tuo_username/get-AI-coding-to-the-next-level.git
    cd get-AI-coding-to-the-next-level
-			
+	```		
             
 2. **Crea un ambiente virtuale (opzionale ma consigliato)**:				
-  python -m venv venv
-  source venv/bin/activate  # Su Windows usa `venv\Scripts\activate`
-			
+	```bash
+	python -m venv venv
+	source venv/bin/activate  # Su Windows usa `venv\Scripts\activate`
+	```		
             
-3.**Installa le dipendenze**:
-  pip install -r requirements.txt
-			
-            
+3. **Installa le dipendenze**:
+	 ```bash
+	 pip install -r requirements.txt
+	```		
+	            
 ## Esecuzione del Progetto
-Per eseguire l'applicazione, utilizza il seguente comando:
-  python src/main.py <livello>
+Per eseguire l'applicazione, utilizza il seguente comando:    	
+   
+    python src/main.py <livello>
+    	
